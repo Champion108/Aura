@@ -1,0 +1,18 @@
+.footer{
+    background-color: rgb(192, 160, 160);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:10vh;
+}
+
+.footer h3{
+    margin:5px 0px 0px 0px;
+    font-size: 16px;
+}
+.footer p{
+    text-align: center;
+    margin:6px 0px;
+    font-size: 14px;
+}

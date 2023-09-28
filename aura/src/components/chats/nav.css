@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Noto+Sans+JP:wght@200;400;500&family=Noto+Serif+JP:wght@200;400;500&family=Roboto+Condensed:wght@400;700&display=swap');
+
+/*
+font-family: 'Inclusive Sans', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+.chat-nav{
+    width: 100%;
+    height: 10%;
+    box-shadow: 0px 2px 10px -7px rgba(78, 0, 36,0.5) ;
+    background-color: rgba(255, 204, 204, 1);
+}
+.chat-nav .upper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+.chat-nav .upper .own-profile{
+   height: 52px;
+   width: 52px;
+   display: flex;
+   position: absolute;
+   top:2.8%;
+   right: 93.2%;
+   align-self: flex-start;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+}
+.chat-nav .upper .own-profile .profile-pic{
+   height: 46px;
+   width: 46px;
+   border-radius: 50%;
+}
+*/
+.chat-nav .upper .chat-head{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 41px;
+    font-weight: 600;
+}
+.chat-nav .upper .bar-cont {
+cursor: pointer;
+   height: 40px;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 12px;
+   transition: 0.2s;
+   margin-left: 5px;
+}
+.chat-nav .upper .search-cont{
+    transition: 0.2s;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.chat-nav .upper .bar-cont:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.chat-nav .upper .bar-cont:hover .bars{
+    transition: 0.2s;
+    color:white;
+}
+.chat-nav .upper .search-cont:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.chat-nav .upper .search-cont:hover .search-icon{
+    transition: 0.2s;
+    color:white;
+}
+.chat-nav .upper .bar-cont .bars{
+    height: 26px;
+    width: 28px;
+}
+.chat-nav .upper .search-cont .search-icon{
+    height: 30px;
+    width: 32px;
+}

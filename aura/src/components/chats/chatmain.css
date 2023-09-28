@@ -1,0 +1,14 @@
+.chat-main-new{
+    height:83%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-main-new .chat-sec{
+    height: 100%;
+    width: 70%;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+}

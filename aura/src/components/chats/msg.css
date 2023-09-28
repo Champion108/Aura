@@ -1,0 +1,34 @@
+.heera1{
+    margin:1px 0px;
+    padding:2px 5px;
+    width: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 181, 181, 0.6);
+    display: inline-flex;
+    align-self: flex-end;
+    max-width: 80%;
+    word-wrap: break-word;
+    border-radius: 6px;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+.heera2{
+    margin:1px 0px;
+    padding:2px;
+    width: fit-content;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(241, 241, 241, 0.6);
+    display: inline-flex;
+    padding-right: 14px;
+    max-width: 80%;
+    word-wrap: break-word;
+    border-radius: 6px;
+    padding-left: 9px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}

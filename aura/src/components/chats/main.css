@@ -1,0 +1,17 @@
+.chat-cont{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat-main{
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px -5px rgb(78, 0, 36);
+    height: 96vh;
+    width: 96%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

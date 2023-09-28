@@ -1,0 +1,10 @@
+.total1{
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top:10vh;
+}

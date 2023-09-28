@@ -1,0 +1,49 @@
+.total{
+    height: 90vh;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one,.two,.three{
+    height: 240px;
+    width:180px;
+    z-index:3;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.one{
+    left: 147px;
+    top: 191px;
+}
+
+.two{
+    left: 374px;
+    top: 291px;
+}
+
+.three{
+    left: 166px;
+    top: 485px;
+}
+
+.four{
+    z-index:2;
+    height: 280px;
+    width: 208px;
+    position: absolute;
+    left: 249px;
+    top: 270px;
+}
+
+.five{
+    z-index:1;
+    height: 220px;
+    width: 168px;
+    position: absolute;
+    left: 343px;
+    top: 421px;
+}
